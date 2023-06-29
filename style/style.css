@@ -39,7 +39,7 @@ iframe#tela {
     position: relative;
     top: 80px;
     left: 22px;
-    width: 269px;
+    width: 267px;
     height: 471px;
 }
 
@@ -60,6 +60,36 @@ section#redes-sociais img:hover {
     border: 2px solid rgba(255, 255, 255, 0.647);
     transform: translate(-3px, -3px);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.621);
-    transition: transform 0.3s, border .5s;
+    transition: transform 0.3s, border .1s;
 
 } 
+
+section#redes-sociais .logo:hover {
+    box-shadow: 2px 2px 2px rgba(231, 231, 240, 0.569);
+    border: 1px solid rgba(0, 0, 0, 0.527);
+}
+
+section#redes-sociais .youtube:hover {
+    box-shadow: 3px 3px 3px rgba(255, 0, 0, 0.677);
+    border: 1px solid rgba(109, 5, 5, 0.447);
+}
+
+section#redes-sociais .git:hover {
+    border: 1px solid rgba(6, 111, 1, 0.447);
+    box-shadow: 3px 3px 3px rgba(0, 192, 26, 0.755)
+}
+
+section#redes-sociais .insta:hover {
+    border: 1px solid rgba(176, 10, 101, 0.447);
+    box-shadow: 3px 3px 3px rgba(206, 20, 187, 0.755)
+}
+
+section#redes-sociais .tt:hover {
+    border: 1px solid rgba(0, 114, 162, 0.447);
+    box-shadow: 4px 4px 3px rgba(1, 131, 212, 0.85)
+}
+
+section#redes-sociais .face:hover {
+    border: 1px solid rgb(0, 113, 162);
+    box-shadow: 4px 4px 4px rgb(0, 62, 169)
+}
